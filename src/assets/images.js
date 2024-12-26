@@ -8,6 +8,8 @@ import reactJs from "./react.png" ;
 import node from "./node.png" ; 
 import tailwind from "./tailwind.png" ; 
 import solidity from "./solidity.svg" ; 
+import belzabar from "./belzabar.jpeg" ; 
+import boiam from "./boiam.jpeg" ; 
 
 export default {
     puru , 
@@ -19,5 +21,7 @@ export default {
     reactJs , 
     node , 
     tailwind , 
-    solidity
+    solidity , 
+    belzabar , 
+    boiam
 }

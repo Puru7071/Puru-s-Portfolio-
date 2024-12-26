@@ -33,7 +33,7 @@ const Tech = () => {
             <Line/>
             <div className='flex flex-col w-[100%]'>
                 <Heading heading={"Technologies"} />
-                <div className='w-[100%] h-[150px] flex flex-row flex-wrap justify-center items-center gap-[16px]'>
+                <div className='w-[100%] min-h-[150px] h-[auto] flex flex-row flex-wrap justify-center items-center gap-[16px]'>
                     {techs?.map((item, index) => (
                         <motion.div
                             key={index}
@@ -51,4 +51,4 @@ const Tech = () => {
     )
 }
 
-export default Tech
+export default Tech ; 

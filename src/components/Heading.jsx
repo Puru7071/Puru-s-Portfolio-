@@ -10,4 +10,4 @@ const Heading = ({heading}) => {
     )
 }
 
-export default Heading
+export default Heading ; 

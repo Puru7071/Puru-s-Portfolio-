@@ -9,7 +9,7 @@ const Intro = () => {
       <div className='w-[35%] h-[100%] relative'>
         <motion.img
           src={images.puru}
-          className='h-[750px] w-[750px] object-cover absolute bottom-0 left-0 rounded-br-[40px]'
+          className='h-[750px] w-[750px] object-cover absolute bottom-0 left-0'
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -62,4 +62,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default Intro ;
