@@ -45,11 +45,9 @@ const Intro = () => {
           | Full Stack Web Developer | Blockchain Developer | DSA Enthusiast
           <br /><br />
 
-          I’m passionate about creating scalable, secure, and innovative digital solutions.
-          With expertise in full-stack development, blockchain technology, and problem-solving through
-          data structures and algorithms, I’m always exploring new ways to push the limits of technology.
-          From decentralized applications to intuitive user interfaces, I turn ideas into reality with clean,
-          efficient code.
+          I specialize in crafting scalable, secure digital solutions with expertise in full-stack 
+          development, blockchain, and advanced problem-solving. From decentralized applications to seamless 
+          user interfaces, I bring ideas to life through clean, efficient code and innovative technology.
         </div>
 
         <button 
