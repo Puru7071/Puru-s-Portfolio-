@@ -1,7 +1,8 @@
 import './App.css';
-import { motion } from 'framer-motion';
 import Header from './components/Header';
 import Intro from './components/Intro';
+import About from './components/About';
+import Tech from './components/Tech';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       className='min-h-screen w-[100%] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] flex flex-col overflow-scroll'>
         <Header/>
         <Intro/>
+        <About/>
+        <Tech/>
     </div>
   );
 }
