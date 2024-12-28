@@ -4,6 +4,7 @@ import Heading from "../components/Heading";
 import { SiMinutemailer } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion"
+import toast from "react-hot-toast";
 
 function GetInTouchMobile() {
     const onSubmit = async (event) => {
@@ -25,7 +26,7 @@ function GetInTouchMobile() {
         }).then((res) => res.json());
 
         if (res.success) {
-            console.log("Success", res);
+            toast.success("Message Sent!!");
         }
     };
 

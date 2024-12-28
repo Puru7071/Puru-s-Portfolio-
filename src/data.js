@@ -154,7 +154,7 @@ const data = {
             ></iframe>,
             githubURL: "https://github.com/Puru7071/FlipKart-Grid-4.0",
             techUsed: [images?.mongo, images?.express, images?.node, images?.javaScript, images?.html, images?.boot],
-            thumbnail: images?.p2
+            thumbnail: images?.p4
         }
     ],
     techs: [

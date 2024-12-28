@@ -19,6 +19,7 @@ import ether from "./ether.svg" ;
 import boot from "./bootstrap.png" ;
 import framer from "./framer.png" ;
 import css from "./css.png" ;
+import p4 from "./projectF.png"
 
 export default {
     puru , 
@@ -35,5 +36,5 @@ export default {
     boiam , 
     material,
     metamask, framer , css , 
-    p1 , p2 , p3, ether , boot
+    p1 , p2 , p3, p4, ether , boot
 }

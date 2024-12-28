@@ -16,7 +16,7 @@ function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 950px)' })
   return (
     <div
-      className='min-h-screen w-[100%] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] flex flex-col overflow-scroll'>
+      className='min-h-screen w-full max-w-[100vw] bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))] flex flex-col overflow-x-hidden'>
         <Header isMobile={isMobile}/>
         {isMobile ? <IntroMobile/> : <Intro/>}
         <About/>

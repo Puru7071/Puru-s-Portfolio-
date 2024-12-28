@@ -11,7 +11,7 @@ const Education = ({isMobile}) => {
     <Fragment>
       <Line />
       <Heading heading={"Education"} />
-      <div className='w-[90%] h-[auto] m-[auto] relative flex flex-col gap-[30px] py-[30px] justify-center items-center'>
+      <div className='w-[90%] h-[auto] m-[auto] relative flex flex-col gap-[30px] justify-center items-center'>
         {educations?.map((education, index) => {
           if(isMobile){
             return (<EducationMobileCard education={education}/>)

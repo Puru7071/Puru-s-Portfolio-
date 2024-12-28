@@ -3,7 +3,8 @@ import Line from "./Line";
 import Heading from "./Heading";
 import { SiMinutemailer } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion" ; 
+import toast from "react-hot-toast";
 
 function GetInTouch() {
     const onSubmit = async (event) => {
@@ -25,7 +26,7 @@ function GetInTouch() {
         }).then((res) => res.json());
 
         if (res.success) {
-            console.log("Success", res);
+            toast.success("Message Sent!!");
         }
     };
 
