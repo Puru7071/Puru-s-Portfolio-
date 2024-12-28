@@ -168,6 +168,54 @@ const data = {
         { image: images?.tailwind, desc: "" },
         { image: images?.solidity, desc: "" },
         { image: images?.css, desc: "" },
+    ],
+    educations: [
+        {
+            name: "BE-Computer Science",
+            insitute: "Chandigarh University",
+            timeline: "2020 – 2024",
+            location: "Gharuan ,Mohali, India",
+            grade: "CGPA 8.47",
+            mobileGrade: "8.47 / 10"
+        },
+        {
+            name: "Class XII",
+            insitute: "Vishwa Bharati Public School",
+            timeline: "2019 – 2020",
+            location: "Yamuna Nagar, India",
+            grade: "Percentage 94.4%(PCM)",
+            mobileGrade: "94.47% / 100"
+        },
+        {
+            name: "Class X",
+            insitute: "Swami Vivekananda Public School",
+            timeline: "2017 - 2018",
+            location: "Yamuna Nagar, India",
+            grade: "Percentage 94%",
+            mobileGrade: "94% / 100"
+        }
+    ],
+    achievements: [
+        {
+            name: "Flipkart GRiD 4.0",
+            desc: "Secured 3rd place among 1.6L+ teams.",
+            link: "https://drive.google.com/file/d/1LYct9KThtrb7CrGmVoASjM5jVrSIdI6x/view?usp=sharing"
+        },
+        {
+            name: "Google Hash Code",
+            desc: "Ranked 3768 globally out of 9000+ teams.",
+            link: "https://drive.google.com/file/d/1m7OJEY2hAI2xkRFKkDYTTd-MNu51ldbl/view?usp=sharing"
+        },
+        {
+            name: "GFG Top 20",
+            desc: "Top 20 coder from CU on GFG platform.",
+            link: "https://www.geeksforgeeks.org/user/purubhargava011/"
+        },
+        {
+            name: "Smart-Tech Ideathon",
+            desc: "Finalist at CU's Engineers Day event.",
+            link: "https://drive.google.com/file/d/1od4N9EJ1rfe-pYKDk1pteNzmUeLf0lYp/view?usp=drive_link"
+        }
     ]
 }
 

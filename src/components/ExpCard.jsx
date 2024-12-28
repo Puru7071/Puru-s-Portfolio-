@@ -8,7 +8,7 @@ const ExpCard = ({item}) => {
             initial={{ scale: 0.5 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className='h-[200px] relative w-[80%] gap-[30px] overflow-hidden flex flex-row justify-between items-center p-[10px]'
+            className='h-[200px] relative w-[90%] gap-[30px] overflow-hidden flex flex-row justify-between items-center p-[10px]'
         >
             <div className='h-[120px] w-[0px] border-r-[4px] rounded-3xl border-r-[#343a40]'>
 
