@@ -11,7 +11,13 @@ const data = {
                 <li>Collaborated with the UI team to design and implement user-friendly interfaces.</li>
                 <li>Enhanced and optimized applications, leveraging DSA for performance improvements.</li>
                 <li>Worked closely with the backend team for API integration and seamless data flow.</li>
-            </ul>
+            </ul>,
+            mobileDesc: <p className="text-white tracking-tighter text-base text-justify">
+                Transitioned to a full-time role, working on MERN stack projects and
+                collaborating with the UI team on user-friendly interfaces. Optimized
+                applications using DSA for better performance and worked with the backend team
+                for smooth API integration.
+            </p>
         },
         {
             image: images.belzabar,
@@ -23,7 +29,13 @@ const data = {
                 <li>Collaborated with senior developers to learn MVC architecture.</li>
                 <li>Designed and implemented user-friendly interfaces as part of the UI team.</li>
                 <li>Enhanced understanding of full-stack development through hands-on experience.</li>
-            </ul>
+            </ul>,
+            mobileDesc: <p className="text-white tracking-tighter text-base text-justify">
+                Contributed to MERN stack projects, collaborating with senior developers to
+                learn MVC architecture. Designed and implemented user-friendly interfaces as
+                part of the UI team while enhancing full-stack development skills through hands-on
+                experience.
+            </p>
         },
         {
             image: images.boiam,
@@ -35,7 +47,13 @@ const data = {
                 <li>Created responsive, cross-browser-compatible websites with JavaScript and React.</li>
                 <li>Developed scalable server-side applications with Node.js and RESTful APIs.</li>
                 <li>Delivered modern, responsive designs for various devices.</li>
-            </ul>
+            </ul>,
+            mobileDesc: <p className="text-white tracking-tighter text-base text-justify">
+                Collaborated on projects using Git and stand-up meetings for task management.
+                Created responsive websites with JavaScript and React,
+                and developed scalable server-side applications with Node.js and RESTful APIs.
+                Delivered modern, responsive designs for various devices.
+            </p>
         }
     ],
     projects: [
@@ -138,8 +156,8 @@ const data = {
             techUsed: [images?.mongo, images?.express, images?.node, images?.javaScript, images?.html, images?.boot],
             thumbnail: images?.p2
         }
-    ] , 
-    techs : [
+    ],
+    techs: [
         { image: images?.cpp, desc: "" },
         { image: images?.html, desc: "" },
         { image: images?.javaScript, desc: "" },

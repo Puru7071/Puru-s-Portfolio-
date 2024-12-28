@@ -4,6 +4,7 @@ import Heading from './Heading';
 
 import data from '../data';
 import ExpCard from './ExpCard';
+import ExpMobileCard from '../mobileComponents/ExpMobileCard';
 
 const Experience = ({isMobile}) => {
     const expArr = data?.expArr ; 
@@ -12,9 +13,12 @@ const Experience = ({isMobile}) => {
             <Line />
             <Heading heading={"Professional Experience"} />
             <div className='w-[90%] flex flex-col items-center justify-center gap-[16px] m-auto'>
-                {expArr?.map((item, index) => (
-                    <ExpCard item = {item}/>
-                ))}
+                {expArr?.map((item, index) => {
+                    if(isMobile){
+                        return (<ExpMobileCard item = {item}/>)
+                    }
+                    return (<ExpCard item = {item}/>)
+                })}
             </div>
         </Fragment>
     )

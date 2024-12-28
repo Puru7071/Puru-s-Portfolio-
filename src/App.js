@@ -8,7 +8,6 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import { useMediaQuery } from 'react-responsive';
 import IntroMobile from './mobileComponents/IntroMobile';
-import HeaderMobile from './mobileComponents/HeaderMobile';
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 768px)' })

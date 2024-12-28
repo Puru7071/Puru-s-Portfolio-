@@ -30,7 +30,6 @@ const ExpCard = ({item}) => {
                     <div className='flex flex-row gap-[10px] text-[white] font-extrabold items-center'>
                         <BsCalendarDate /> <span>{item?.timeline}</span>
                     </div>
-
                 </div>
                 {item?.desc}
             </div>

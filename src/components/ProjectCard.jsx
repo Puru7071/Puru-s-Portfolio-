@@ -76,7 +76,13 @@ const ProjectCard = ({ project , isMobile}) => {
                 </div>
                 {showLoading && <div className='text-white h-[100%] w-[100%] bg-black flex flex-col justify-center items-center absolute top-0 left-0 gap-[20px]'>
                     Loading Video in {time} seconds
-                    <div className='h-[5px] w-[300px] bg-slate-100 rounded-2xl relative'>
+                    <div 
+                        className={
+                            isMobile ? 
+                            'h-[5px] w-[250px] bg-slate-100 rounded-2xl relative overflow-hidden'
+                            : 'h-[5px] w-[300px] bg-slate-100 rounded-2xl relative overflow-hidden' 
+                        }
+                    >
                         <motion.div
                             className='absolute h-[100%] left-0 bottom-0 bg-blue-600'
                             initial={{width:0}}
