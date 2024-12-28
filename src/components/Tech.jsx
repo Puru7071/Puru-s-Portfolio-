@@ -1,21 +1,11 @@
 import React, { Fragment } from 'react';
-import images from '../assets/images';
 import { motion } from 'framer-motion';
 import Heading from './Heading';
 import Line from './Line';
+import data from '../data';
 
 const Tech = () => {
-    const techs = [
-        { image: images?.cpp, desc: "" },
-        { image: images?.html, desc: "" },
-        { image: images?.javaScript, desc: "" },
-        { image: images?.mongo, desc: "" },
-        { image: images?.express, desc: "" },
-        { image: images?.reactJs, desc: "" },
-        { image: images?.node, desc: "" },
-        { image: images?.tailwind, desc: "" },
-        { image: images?.solidity, desc: "" },
-    ]
+    const techs = data?.techs ; 
     const iconsVariants = (duration) => ({
         initial: { y: -10 + (1 + (duration % 3) * 0.5) },
         animate: {

@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion"
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project , isMobile}) => {
     const [showVideo, setShowVideo] = useState(false);
     const [showLoading, setShowLoading] = useState(false);
     const [time, setTime] = useState(5);
@@ -40,15 +40,30 @@ const ProjectCard = ({ project }) => {
 
     return (
         <motion.div
-            // initial={{ scale: 0.2 }}
-            // whileInView={{ scale: 1 }}
-            // transition={{ duration: 1 }}
-            className='h-[auto] w-[500px] p-[15px] bg-[#212529] rounded-xl flex flex-col relative'
+            className={
+                isMobile ? 
+                'h-[auto] w-[105%] p-[15px] bg-[#212529] rounded-xl flex flex-col relative'
+                : 'h-[auto] w-[500px] p-[15px] bg-[#212529] rounded-xl flex flex-col relative'
+            }
         >
             <h1
-                className='text-3xl mb-[20px] flex flex-row justify-start items-end gap-[20px] bg-gradient-to-tr from-pink-700 via-gray-100 to-purple-600 bg-clip-text text-transparent font-semibold'
+                className={
+                    isMobile ?
+                    'text-xl mb-[10px] flex flex-row justify-start items-end gap-[10px] bg-gradient-to-tr from-pink-700 via-gray-100 to-purple-600 bg-clip-text text-transparent font-semibold'
+                    :'text-3xl mb-[20px] flex flex-row justify-start items-end gap-[20px] bg-gradient-to-tr from-pink-700 via-gray-100 to-purple-600 bg-clip-text text-transparent font-semibold'
+                }
             >
-                <font className="text-white text-5xl">{project?.id}</font>{project?.name}
+                <font 
+                    className={
+                        isMobile ? 
+                        "text-white text-2xl"
+                        :"text-white text-5xl"
+                    }
+                >
+                    {project?.id}
+                </font>
+                
+                {project?.name}
             </h1>
             {!showVideo &&<div
                 onMouseEnter={mouseInEvent}

@@ -4,7 +4,7 @@ import { RiLinkedinBoxFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({isMobile}) => {
     const iconsLinks = [
         {
             icon: <RiLinkedinBoxFill />,
@@ -20,7 +20,7 @@ const Header = () => {
         }
     ]
     return (
-        <div className='w-[100%] h-[80px] flex flex-row justify-between pl-[40px] pr-[60px] py-[25px]'>
+        <div className={isMobile ? "w-[100%] h-[80px] flex flex-row justify-between pl-[20px] pr-[20px] py-[25px]" : "w-[100%] h-[80px] flex flex-row justify-between pl-[40px] pr-[60px] py-[25px]"}>
             <h1
                 className='text-white text-[36px] h-[60px]'
             >
