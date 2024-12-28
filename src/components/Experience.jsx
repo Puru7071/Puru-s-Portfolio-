@@ -12,7 +12,7 @@ const Experience = () => {
             post: "Computer Scientist",
             name: "Belzabar Software Design",
             timeline: "07/2024 – Present",
-            desc: <ul className='text-white list-disc list-inside mt-[20px] tracking-tighter text-xl'>
+            desc: <ul className='text-white list-disc list-inside tracking-tighter text-xl'>
                 <li>Transitioned to a full-time role, continuing to work on MERN stack projects.</li>
                 <li>Collaborated with the UI team to design and implement user-friendly interfaces.</li>
                 <li>Enhanced and optimized applications, leveraging DSA for performance improvements.</li>
@@ -24,10 +24,11 @@ const Experience = () => {
             post: "Computer Scientist Intern",
             name: "Belzabar Software Design",
             timeline: "08/2023 – 06/2024",
-            desc: <ul className='text-white list-disc list-inside mt-[20px] tracking-tighter text-xl'>
-                <li>Contributed to MERN projects.</li>
-                <li>Worked closely with seniors and learnt about MVC architecture.</li>
-                <li>Worked in the UI team to design and implement user-friendly interfaces.</li>
+            desc: <ul className='text-white list-disc list-inside tracking-tighter text-xl'>
+                <li>Contributed to projects using the MERN stack.</li>
+                <li>Collaborated with senior developers to learn MVC architecture.</li>
+                <li>Designed and implemented user-friendly interfaces as part of the UI team.</li>
+                <li>Enhanced understanding of full-stack development through hands-on experience.</li>
             </ul>
         },
         {
@@ -35,9 +36,11 @@ const Experience = () => {
             post: "Website Developer Intern",
             name: "Baoiam Innovations Pvt Ltd",
             timeline: "05/2022 – 11/2022",
-            desc: <ul className='text-white list-disc list-inside mt-[20px] tracking-tighter text-xl'>
-                <li>Actively participated in team projects, utilizing Git for efficient task management.</li>
-                <li>Developed multiple responsive websites using JavaScript and React, with Node.js as the backend.</li>
+            desc: <ul className='text-white list-disc list-inside tracking-tighter text-xl'>
+                <li>Collaborated on projects using Git and stand-up meetings for task management.</li>
+                <li>Created responsive, cross-browser-compatible websites with JavaScript and React.</li>
+                <li>Developed scalable server-side applications with Node.js and RESTful APIs.</li>
+                <li>Delivered modern, responsive designs for various devices.</li>
             </ul>
         }
     ]
@@ -48,25 +51,24 @@ const Experience = () => {
             <div className='w-[90%] flex flex-col items-center justify-center gap-[16px] m-auto'>
                 {expArr?.map((item, index) => (
                     <motion.div
-                        initial={{ x: 600, opacity: 0 }}
-                        whileInView={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 1.2}}
+                        initial={{ scale: 0.5 }}
+                        whileInView={{ scale: 1 }}
+                        transition={{ duration: 0.5 }}
                         className='h-[200px] relative w-[80%] gap-[30px] overflow-hidden flex flex-row justify-between items-center p-[10px]'
                     >
+                        <div className='h-[120px] w-[0px] border-r-[4px] rounded-3xl border-r-[#343a40]'>
 
+                        </div>
                         <motion.div
-                            className='h-[160px] w-[160px] overflow-hidden bg-transparent'
-                            initial={{opacity: 0.5 , scale:0.4}}
-                            whileInView={{ rotate :git -360, opacity: 1 , scale: 1 }}
-                            transition={{ duration: 1 }}
+                            className='h-[120px] w-[120px] overflow-hidden bg-transparent'
                         >
                             <img src={item?.image} className='object-contain rounded-3xl' />
                         </motion.div>
 
-                        <div className='flex flex-col w-[80%] h-[auto]'>
+                        <div className='flex flex-col w-[80%] h-[150px] justify-between'>
                             <div className='w-[100%] h-[40px] flex flex-row justify-between items-center'>
                                 <h1
-                                    className='text-2xl text-white bg-gradient-to-tr from-pink-400 via-slate-400 to-purple-500 bg-clip-text text-transparent'
+                                    className='text-2xl bg-gradient-to-tr from-pink-400 via-slate-400 to-purple-500 bg-clip-text text-transparent'
                                 >
                                     {item?.post} @{item?.name}
                                 </h1>

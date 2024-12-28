@@ -10,6 +10,14 @@ import tailwind from "./tailwind.png" ;
 import solidity from "./solidity.svg" ; 
 import belzabar from "./belzabar.jpeg" ; 
 import boiam from "./boiam.jpeg" ; 
+import p1 from "./project1.png"
+import p2 from "./project2.png"
+import p3 from "./project3.png"
+import material from "./materialUI.png"
+import metamask from "./metamask.png"
+import ether from "./ether.svg"
+import boot from "./bootstrap.png"
+import framer from "./framer.png"
 
 export default {
     puru , 
@@ -23,5 +31,8 @@ export default {
     tailwind , 
     solidity , 
     belzabar , 
-    boiam
+    boiam , 
+    material,
+    metamask, framer ,
+    p1 , p2 , p3, ether , boot
 }
