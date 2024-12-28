@@ -9,6 +9,8 @@ import Projects from './components/Projects';
 import { useMediaQuery } from 'react-responsive';
 import IntroMobile from './mobileComponents/IntroMobile';
 import MoreInfo from './components/MoreInfo';
+import GetInTouch from './components/GetInTouch';
+import GetInTouchMobile from './mobileComponents/GetInTouchMobile';
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 950px)' })
@@ -23,6 +25,11 @@ function App() {
         <Projects isMobile={isMobile}/>
         <Education isMobile={isMobile}/>
         <MoreInfo/>
+        {isMobile ? <GetInTouchMobile/> : <GetInTouch/>}
+        {isMobile ? 
+           <div className=' w-[80%] m-auto flex justify-center items-center h-[100px] text-white text-xs text-center mb-[50px]'>Copyright ©2024 All rights reserved | Designed and developed by Puru</div>
+          :<div className=' w-[80%] m-auto flex justify-center items-center h-[100px] text-white text-2xl mb-[50px]'>Copyright ©2024 All rights reserved | Designed and developed by Puru</div>
+        }
     </div>
   );
 }

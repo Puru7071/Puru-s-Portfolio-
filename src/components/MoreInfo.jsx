@@ -36,7 +36,6 @@ const MoreInfo = () => {
             </div>
           </motion.div>))}
       </div>
-      <Line />
     </div>
   )
 }
