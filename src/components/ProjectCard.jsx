@@ -9,7 +9,6 @@ const ProjectCard = ({ project , isMobile}) => {
     const [time, setTime] = useState(5);
     const intervalRef = useRef(null);
 
-    let intervalID;
     const mouseInEvent = () => {
         setTime(5);
         setShowLoading(true);
