@@ -66,6 +66,12 @@ const data = {
                 It offers dynamic stories, highlights, posts, comments,
                 likes, real-time notifications, and custom APIs for seamless functionality.
             </p>,
+            description2: <p className='text-white mt-[10px] tracking-tighter text-[16px] text-justify h-[190px] overflow-hidden'>
+                This MVC based application features a modern, responsive design with enhanced security,
+                including email verification, community guidelines, and account privacy options.
+                It offers dynamic stories, highlights, posts, comments,
+                likes, real-time notifications, and custom APIs for seamless functionality.
+            </p>,
             youtubeFrame: <iframe
                 width="100%"
                 height="100%"
@@ -90,8 +96,14 @@ const data = {
                 captcha for registration, avatar personalization, and seamless user
                 registration with friend addition through smart contracts. The intuitive
                 UI ensures smooth interactions.
-            </p>
-            ,
+            </p>,
+            description2: <p className='text-white mt-[10px] tracking-tighter text-[16px] text-justify h-[190px] overflow-hidden'>
+                A decentralized chat application offering secure messaging and
+                real-time notifications on blockchain. Features include custom
+                captcha for registration, avatar personalization, and seamless user
+                registration with friend addition through smart contracts. The intuitive
+                UI ensures smooth interactions.
+            </p>,
             youtubeFrame: <iframe
                 width="100%"
                 height="100%"
@@ -115,8 +127,13 @@ const data = {
                 responsive design showcasing projects, skills, and achievements.
                 Features include dynamic project cards, smooth animations with Framer Motion,
                 and links to GitHub/LinkedIn.It highlights my expertise in React and front-end development.
-            </p>
-            ,
+            </p>,
+            description2: <p className='text-white mt-[10px] tracking-tighter text-[16px] text-justify h-[190px] overflow-hidden'>
+                Built a ReactJS portfolio website with a modern,
+                responsive design showcasing projects, skills, and achievements.
+                Features include dynamic project cards, smooth animations with Framer Motion,
+                and links to GitHub/LinkedIn.It highlights my expertise in React and front-end development.
+            </p>,
             youtubeFrame: <iframe
                 width="100%"
                 height="100%"
@@ -127,7 +144,7 @@ const data = {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>,
-            linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7258899408811876352/",
+            linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7279142287085813760/",
             githubURL: "https://github.com/Puru7071/Puru-s-Portfolio-",
             techUsed: [images?.javaScript, images?.reactJs, images?.tailwind, images?.framer],
             thumbnail: images?.p3
@@ -140,8 +157,13 @@ const data = {
                 and web scraping to monitor market competition. Features include
                 top performer insights, trending keywords, images from social media,
                 and expert advice. Won 3rd prize at Flipkart GRiD 4.0 Challenge.
-            </p>
-            ,
+            </p>,
+            description2: <p className='text-white mt-[10px] tracking-tighter text-[16px] text-justify h-[190px] overflow-hidden'>
+                Developed FAssist, an award-winning website using MVC architecture
+                and web scraping to monitor market competition. Features include
+                top performer insights, trending keywords, images from social media,
+                and expert advice. Won 3rd prize at Flipkart GRiD 4.0 Challenge.
+            </p>,
             youtubeFrame: <iframe
                 width="100%"
                 height="100%"

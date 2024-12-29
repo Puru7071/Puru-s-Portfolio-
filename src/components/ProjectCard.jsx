@@ -94,8 +94,8 @@ const ProjectCard = ({ project , isMobile}) => {
             {showVideo && <div className='h-[300px] w-[100%] overflow-hidden bg-[black] flex justify-center items-center relative cursor-pointer mb-[20px]'>
                 {project?.youtubeFrame}
             </div>}
-            {project?.description}
-
+            {!isMobile&&project?.description}
+            {isMobile&&project?.description2}
             <div className='h-[auto] w-[100%] bg-transparent flex flex-col gap-[24px] mt-[20px]'>
                 <div className='w-[100%] flex flex-row text-wrap gap-[10px] justify-between item-center'>
                     {project?.techUsed?.map(tech => (
