@@ -36,6 +36,7 @@ const Header = ({isMobile}) => {
                     <motion.a
                         href={item?.link} 
                         target='_blank'
+                        rel="noopener noreferrer"
                         animate ={{rotate:-360}}
                         transition={{duration: 2}}
                     >

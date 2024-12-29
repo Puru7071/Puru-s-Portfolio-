@@ -27,7 +27,7 @@ const MoreInfo = () => {
             <div className='text-base text-justify text-[#adb5bd] mt-[20px]'>
               {achievement?.desc}
             </div>
-            <a href={achievement?.link} target='_blank' className='absolute bottom-4 px-[10px] flex flex-row justify-center items-center gap-[5px] py-[5px] bg-[#555555] text-[white] rounded-md font-medium'>
+            <a href={achievement?.link} rel="noopener noreferrer" target='_blank' className='absolute bottom-4 px-[10px] flex flex-row justify-center items-center gap-[5px] py-[5px] bg-[#555555] text-[white] rounded-md font-medium'>
               Certificate <FaLink/>
             </a>
             <div className='top-[-10px] right-3 absolute w-[auto] h-[auto]'>

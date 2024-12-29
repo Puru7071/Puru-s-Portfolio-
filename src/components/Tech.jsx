@@ -32,7 +32,7 @@ const Tech = () => {
                             animate="animate"
                             className='border-[1.5px] border-[#495057] h-[120px] w-[120px] rounded-xl flex justify-center items-center'
                         >
-                            <img alt='image' src={item.image} className='h-[60%] w-[60%] object-contain rounded-xl' />
+                            <img alt='pic of a website' src={item.image} className='h-[60%] w-[60%] object-contain rounded-xl' />
                         </motion.div>
                     ))}
                 </div>

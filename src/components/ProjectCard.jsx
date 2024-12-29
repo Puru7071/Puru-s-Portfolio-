@@ -70,7 +70,7 @@ const ProjectCard = ({ project , isMobile}) => {
                 onMouseLeave={mouseOutEvent}
                 className='h-[300px] w-[100%] overflow-hidden bg-[black] flex justify-center items-center relative cursor-pointer mb-[20px]'
             >
-                <img alt='image' src={project?.thumbnail} className='w-[100%] h-[100%] object-contain' />
+                <img alt='pic of a website' src={project?.thumbnail} className='w-[100%] h-[100%] object-contain' />
                 <div className='text-xl absolute text-white bg-red-600 p-[5px] pl-[10px] bottom-0 right-0 rounded-tl-[20px]'>
                     Hover Image
                 </div>
@@ -101,15 +101,15 @@ const ProjectCard = ({ project , isMobile}) => {
                 <div className='w-[100%] flex flex-row text-wrap gap-[10px] justify-between item-center'>
                     {project?.techUsed?.map(tech => (
                         <div className='h-[50px] w-[50px] flex justify-center items-center gap-[10px]'>
-                            <img alt='image' src={tech} className='h-[100%] w-[100%] object-contain' />
+                            <img alt='pic of a website' src={tech} className='h-[100%] w-[100%] object-contain' />
                         </div>
                     ))}
                 </div>
                 <div className='flex flex-row justify-start item-center gap-[16px] '>
-                    <a href={project?.githubURL} target='_blank' className='px-[20px] py-[10px] text-white rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#495057]'>
+                    <a href={project?.githubURL} rel="noopener noreferrer" target='_blank' className='px-[20px] py-[10px] text-white rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#495057]'>
                         <FaGithub className='text-2xl' /> GitHub
                     </a>
-                    {project?.linkedInLink && <a href={project?.linkedInLink} target='_blank' className='px-[20px] py-[10px] text-white font-bold rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#0077b6]'>
+                    {project?.linkedInLink && <a href={project?.linkedInLink} rel="noopener noreferrer" target='_blank' className='px-[20px] py-[10px] text-white font-bold rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#0077b6]'>
                         <FaLinkedin className='text-2xl' />LinkedIn
                     </a>}
                 </div>

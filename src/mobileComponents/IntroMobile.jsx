@@ -8,7 +8,7 @@ const IntroMobile = () => {
         <div className='h-[85vh] w-[100%] flex flex-row justify-between items-center'>
             <div className='w-[100%] h-[100%] relative flex flex-col items-center'>
                 <motion.img
-                    alt='image'
+                    alt='pic of a website'
                     src={images.puru}
                     className='h-[400px] w-[300px] object-cover absolute bottom-0 left-0'
                     initial={{ opacity: 0 }}
@@ -38,7 +38,7 @@ const IntroMobile = () => {
                         />
                     </div>
                     <div className='mt-[20px] text-white w-[100%] text-lg text-justify'>
-                        Computer Scientist <a href='https://belzabar.com/' target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
+                        Computer Scientist <a href='https://belzabar.com/' target='_blank' rel="noopener noreferrer" className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
                         | Full Stack Web Developer | Blockchain Developer | DSA Enthusiast
                         <br /><br />
                     </div>

@@ -13,7 +13,7 @@ const Intro = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          alt='image'
+          alt='pic of a website'
         />
       </div>
       <motion.div
@@ -42,7 +42,7 @@ const Intro = () => {
           Computer Scientist <a className=' cursor-pointer'>@Belzabar</a>
         </h1> */}
         <div className='mt-[20px] text-white w-[90%] text-xl text-justify'>
-          Computer Scientist <a href='https://belzabar.com/' target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
+          Computer Scientist <a href='https://belzabar.com/' rel="noopener noreferrer" target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
           | Full Stack Web Developer | Blockchain Developer | DSA Enthusiast
           <br /><br />
 

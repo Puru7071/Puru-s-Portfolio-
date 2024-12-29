@@ -12,7 +12,7 @@ const ExpMobileCard = ({ item }) => {
         >
             <div className='w-[100%] h-[60px] flex flex-row justify-start items-center gap-[16px] mb-[20px]'>
                 <div className='h-[56px] w-[56px] bg-black overflow-hidden rounded-xl'>
-                    <img alt='image' src={item?.image} />
+                    <img alt='pic of a website' src={item?.image} />
                 </div>
                 <div className='h-[100%] flex flex-col justify-center py-[2px] font-semibold'>
                     <h1 className='text-xl text-white'>

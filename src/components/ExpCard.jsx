@@ -16,7 +16,7 @@ const ExpCard = ({item}) => {
             <motion.div
                 className='h-[120px] w-[120px] overflow-hidden bg-transparent'
             >
-                <img src={item?.image} alt='image' className='object-contain rounded-3xl' />
+                <img src={item?.image} alt='pic of a website' className='object-contain rounded-3xl' />
             </motion.div>
 
             <div className='flex flex-col w-[80%] h-[150px] justify-between'>
