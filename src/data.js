@@ -120,7 +120,7 @@ const data = {
             youtubeFrame: <iframe
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/hal-K0-5fZ0?si=3VWqjQW67YlPIfe1&autoplay=1&mute=1"
+                src="https://www.youtube.com/embed/sSTXOTqC_3g?si=NmFjm92oODlnYXIj&autoplay=1&mute=1"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -128,7 +128,7 @@ const data = {
                 allowFullScreen
             ></iframe>,
             linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7258899408811876352/",
-            githubURL: "https://github.com/Puru7071/FlipKart-Grid-4.0",
+            githubURL: "https://github.com/Puru7071/Puru-s-Portfolio-",
             techUsed: [images?.javaScript, images?.reactJs, images?.tailwind, images?.framer],
             thumbnail: images?.p3
         },
