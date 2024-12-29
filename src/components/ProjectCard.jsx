@@ -70,7 +70,7 @@ const ProjectCard = ({ project , isMobile}) => {
                 onMouseLeave={mouseOutEvent}
                 className='h-[300px] w-[100%] overflow-hidden bg-[black] flex justify-center items-center relative cursor-pointer mb-[20px]'
             >
-                <img src={project?.thumbnail} className='w-[100%] h-[100%] object-contain' />
+                <img alt='image' src={project?.thumbnail} className='w-[100%] h-[100%] object-contain' />
                 <div className='text-xl absolute text-white bg-red-600 p-[5px] pl-[10px] bottom-0 right-0 rounded-tl-[20px]'>
                     Hover Image
                 </div>
@@ -101,7 +101,7 @@ const ProjectCard = ({ project , isMobile}) => {
                 <div className='w-[100%] flex flex-row text-wrap gap-[10px] justify-between item-center'>
                     {project?.techUsed?.map(tech => (
                         <div className='h-[50px] w-[50px] flex justify-center items-center gap-[10px]'>
-                            <img src={tech} className='h-[100%] w-[100%] object-contain' />
+                            <img alt='image' src={tech} className='h-[100%] w-[100%] object-contain' />
                         </div>
                     ))}
                 </div>

@@ -8,6 +8,7 @@ const IntroMobile = () => {
         <div className='h-[85vh] w-[100%] flex flex-row justify-between items-center'>
             <div className='w-[100%] h-[100%] relative flex flex-col items-center'>
                 <motion.img
+                    alt='image'
                     src={images.puru}
                     className='h-[400px] w-[300px] object-cover absolute bottom-0 left-0'
                     initial={{ opacity: 0 }}
