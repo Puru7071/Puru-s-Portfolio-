@@ -53,7 +53,7 @@ const Intro = () => {
 
         <button 
         className='text-slate-100 font-medium px-[20px] py-[10px] bg-gradient-to-tr from-purple-600 to-pink-400 rounded-md mt-[40px]'
-        onClick={()=>{window.open("https://drive.google.com/file/d/1nitKl8VTTeaokdChd-nKSqf3-HpSzM__/view?usp=drive_link", "_blank")}}
+        onClick={()=>{window.open("https://drive.google.com/drive/folders/1dqlWDRwFErg8A4B2OKmTekLPC6FKS-ch?usp=drive_link", "_blank")}}
         >
           Download CV
         </button>
