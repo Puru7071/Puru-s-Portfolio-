@@ -105,9 +105,9 @@ const ProjectCard = ({ project , isMobile}) => {
                     ))}
                 </div>
                 <div className='flex flex-row justify-start item-center gap-[16px] '>
-                    <a href={project?.githubURL} rel="noopener noreferrer" target='_blank' className='px-[20px] py-[10px] text-white rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#495057]'>
+                    {project?.githubUrl && <a href={project?.githubURL} rel="noopener noreferrer" target='_blank' className='px-[20px] py-[10px] text-white rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#495057]'>
                         <FaGithub className='text-2xl' /> GitHub
-                    </a>
+                    </a>}
                     {project?.linkedInLink && <a href={project?.linkedInLink} rel="noopener noreferrer" target='_blank' className='px-[20px] py-[10px] text-white font-bold rounded-lg cursor-pointer text-xl flex flex-row items-center gap-[10px] bg-[#0077b6]'>
                         <FaLinkedin className='text-2xl' />LinkedIn
                     </a>}

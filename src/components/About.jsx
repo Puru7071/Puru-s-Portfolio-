@@ -6,13 +6,26 @@ import { motion } from 'framer-motion';
 const About = () => {
 
     const myUSP = [
-        { id: "01", title: "Professional Experience", desc: "1.5 years at Belzabar Software, building scalable web solutions." },
-        { id: "02", title: "MERN Stack Expert", desc: "Proficient in creating secure and maintainable full-stack applications." },
-        { id: "03", title: "Award Winner", desc: "Flipkart Grid 4.0 2nd Runner Up for exceptional technical skills." },
-        { id: "04", title: "Blockchain Developer", desc: "Created CipherSpace, a decentralized chat app with encryption." },
-        { id: "05", title: "Top Coder", desc: "Ranked among GeeksforGeeks Top 20 Coders at Chandigarh University." },
-        { id: "06", title: "UI Specialist", desc: "Expert in designing clean, intuitive, and responsive UIs." },
+        { id: "01", title: "Professional Experience", desc: "2.6 years of building scalable web and mobile applications." },
+
+        { id: "02", title: "Award Winner", desc: "Flipkart Grid 4.0 2nd Runner Up for exceptional technical skills." },
+
+        { id: "03", title: "Enterprise Client Experience", desc: "Worked with enterprise clients including DRDO, Vodafone Idea, Infosys, and Smart Market." },
+
+        { id: "04", title: "Performance Optimization", desc: "Optimized applications to handle 200K+ data points using Web Workers and code splitting." },
+
+        { id: "05", title: "Offline & GIS Systems", desc: "Designed offline-first GIS applications with high-performance geospatial visualization." },
+
+        { id: "06", title: "MERN Stack Expert", desc: "Proficient in creating secure and maintainable full-stack applications." },
+
+        { id: "07", title: "Backend & API Design", desc: "Designed secure RESTful APIs with JWT authentication, OTP verification, and role-based access." },
+
+        { id: "08", title: "UI Specialist", desc: "Expert in designing clean, intuitive, and responsive UIs." },
+
+        { id: "09", title: "Blockchain Developer", desc: "Created CipherSpace, a decentralized chat app with encryption." }
     ];
+
+
     return (
         <Fragment>
             <Line />
@@ -42,4 +55,4 @@ const About = () => {
     )
 }
 
-export default About ; 
+export default About; 

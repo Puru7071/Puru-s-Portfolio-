@@ -42,20 +42,17 @@ const Intro = () => {
           Computer Scientist <a className=' cursor-pointer'>@Belzabar</a>
         </h1> */}
         <div className='mt-[20px] text-white w-[90%] text-xl text-justify'>
-          Computer Scientist <a href='https://belzabar.com/' rel="noopener noreferrer" target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
+          Software Developer <a href='https://leptonsoftware.com/' rel="noopener noreferrer" target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Lepton Software</a> | Flipkart Grid 4.0 2nd Runner Up
           | Full Stack Web Developer | Blockchain Developer | DSA Enthusiast
           <br /><br />
-
-          I specialize in crafting scalable, secure digital solutions with expertise in full-stack 
-          development, blockchain, and advanced problem-solving. From decentralized applications to seamless 
-          user interfaces, I bring ideas to life through clean, efficient code and innovative technology.
+          Product-focused Software Engineer with 2.6 years of experience delivering  web and mobile applications for enterprise clients including Infosys, Vodafone Idea, and DRDO, specializing in offline-first systems, performance optimization, and big data handling.
         </div>
 
         <button 
         className='text-slate-100 font-medium px-[20px] py-[10px] bg-gradient-to-tr from-purple-600 to-pink-400 rounded-md mt-[40px]'
-        onClick={()=>{window.open("https://drive.google.com/drive/folders/1dqlWDRwFErg8A4B2OKmTekLPC6FKS-ch?usp=drive_link", "_blank")}}
+        onClick={()=>{window.open("https://drive.google.com/file/d/1Oql0KYtn0hK7gqiYdyk9GgwF7hilwVU0/view?usp=sharing", "_blank")}}
         >
-          Download CV
+          View Resume
         </button>
 
       </motion.div>

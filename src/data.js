@@ -2,21 +2,98 @@ import images from "./assets/images";
 const data = {
     expArr: [
         {
+            image: images.lepton,
+            post: "Software Engineer",
+            name: "Lepton Software",
+            timeline: "06/2025 – Present",
+            desc: (
+                <ul className="text-white tracking-tighter text-xl space-y-3">
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Independently designed and developed an offline GIS mobile application for DRDO using React Native and Deck.gl, enabling high-performance geospatial visualization with robust session management.
+                        </span>
+                    </li>
+
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Engineered an offline tile server for DRDO, rendering world PBF tiles up to zoom 16 with place labels using text-ellipsis.
+                        </span>
+                    </li>
+
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Optimized NEO360 (Vodafone Idea) to render 200K+ map features, reducing processing time ~40% using Web Workers and code splitting.
+                        </span>
+                    </li>
+
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Reverse-engineered airline seat-map systems and built a Flight Management iFrame for Infosys with real-time flight data on maps.
+                        </span>
+                    </li>
+
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Developed a Super Admin dashboard for Smart Market with virtualization, infinite scrolling, and supporting 100K+ concurrent entries.
+                        </span>
+                    </li>
+
+                    <li className="flex gap-3">
+                        <span className="shrink-0">•</span>
+                        <span>
+                            Built end-to-end Credits Overview for Smart Market, fetching KPIs via RPCs and visualizing credit usage with React-ApexCharts and virtualization.
+                        </span>
+                    </li>
+                </ul>
+            ),
+            mobileDesc: (
+                <p className="text-white tracking-tighter text-base text-justify">
+                    Independently designed and developed an offline GIS mobile application for DRDO using React Native and Deck.gl; engineered an offline tile server rendering world PBF tiles up to zoom 16; optimized NEO360 (Vodafone Idea) to render 200K+ map features with ~40% performance improvement; reverse-engineered airline seat-map systems and built a Flight Management iFrame for Infosys; developed high-scale admin dashboards and credit analytics for Smart Market supporting 100K+ entries.
+                </p>
+            )
+        },
+        {
             image: images.belzabar,
             post: "Computer Scientist",
             name: "Belzabar Software Design",
-            timeline: "07/2024 – Present",
-            desc: <ul className='text-white list-disc list-inside tracking-tighter text-xl'>
-                <li>Transitioned to a full-time role, continuing to work on MERN stack projects.</li>
-                <li>Collaborated with the UI team to design and implement user-friendly interfaces.</li>
-                <li>Enhanced and optimized applications, leveraging DSA for performance improvements.</li>
-                <li>Worked closely with the backend team for API integration and seamless data flow.</li>
-            </ul>,
+            timeline: "07/2024 – 06/2024",
+            desc: <ul className="text-white tracking-tighter text-xl space-y-3">
+                <li className="flex gap-3">
+                    <span className="shrink-0">•</span>
+                    <span>
+                        Collaborated on full-stack MERN apps with React and Tailwind, improving user engagement by 25% in projects like an Education Management Platform.
+                    </span>
+                </li>
+
+                <li className="flex gap-3">
+                    <span className="shrink-0">•</span>
+                    <span>
+                        Improved data synchronization across admin and parent roles in an Education Management Platform using Redux for state management.
+                    </span>
+                </li>
+
+                <li className="flex gap-3">
+                    <span className="shrink-0">•</span>
+                    <span>
+                        Designed and integrated RESTful APIs with Node.js/Express to support 20+ front-end interfaces in an Education Management Platform.
+                    </span>
+                </li>
+
+                <li className="flex gap-3">
+                    <span className="shrink-0">•</span>
+                    <span>
+                        Collaborated in Agile teams of 15+ members using Git/GitHub for efficient version control.
+                    </span>
+                </li>
+            </ul>
+            ,
             mobileDesc: <p className="text-white tracking-tighter text-base text-justify">
-                Transitioned to a full-time role, working on MERN stack projects and
-                collaborating with the UI team on user-friendly interfaces. Optimized
-                applications using DSA for better performance and worked with the backend team
-                for smooth API integration.
+                Collaborated on full-stack MERN apps with React and Tailwind, improving user engagement by 25% in projects like an Education Management Platform; improved data synchronization across admin and parent roles using Redux for state management; designed and integrated RESTful APIs with Node.js/Express to support 20+ front-end interfaces; collaborated in Agile teams of 15+ members using Git/GitHub for efficient version control.
             </p>
         },
         {
@@ -24,17 +101,24 @@ const data = {
             post: "Computer Scientist Intern",
             name: "Belzabar Software Design",
             timeline: "08/2023 – 06/2024",
-            desc: <ul className='text-white list-disc list-inside tracking-tighter text-xl'>
-                <li>Contributed to projects using the MERN stack.</li>
-                <li>Collaborated with senior developers to learn MVC architecture.</li>
-                <li>Designed and implemented user-friendly interfaces as part of the UI team.</li>
-                <li>Enhanced understanding of full-stack development through hands-on experience.</li>
-            </ul>,
+            desc: <ul className="text-white tracking-tighter text-xl space-y-3">
+                <li className="flex items-start gap-3">
+                    <span className="shrink-0 leading-snug">•</span>
+                    <span>
+                        Contributed to full-stack projects — Education Management Platform, Insights Dashboard, and KPI Dashboard — using React, Redux, RESTful APIs, and Chart.js for data visualization.
+                    </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                    <span className="shrink-0 leading-snug">•</span>
+                    <span>
+                        Developed and maintained frontend components with Tailwind CSS, improving UI responsiveness across 3 device types.
+                    </span>
+                </li>
+            </ul>
+            ,
             mobileDesc: <p className="text-white tracking-tighter text-base text-justify">
-                Contributed to MERN stack projects, collaborating with senior developers to
-                learn MVC architecture. Designed and implemented user-friendly interfaces as
-                part of the UI team while enhancing full-stack development skills through hands-on
-                experience.
+                Contributed to full-stack projects — Education Management Platform, Insights Dashboard, and KPI Dashboard — using React, Redux, RESTful APIs, and Chart.js for data visualization; developed and maintained frontend components with Tailwind CSS, improving UI responsiveness across 3 device types.
             </p>
         },
         {
@@ -59,8 +143,51 @@ const data = {
     projects: [
         {
             id: "01",
+            name: "OfflineGIS",
+            description: (
+                <p className="text-white mt-[10px] tracking-tighter text-[18px] text-justify h-[180px] overflow-hidden">
+                    OfflineGIS is an offline-first Android GIS application focused on high-performance geospatial
+                    visualization and field operations. It features interactive 3D maps using Mapbox GL and deck.gl,
+                    real-time data streaming, live position tracking, and advanced drawing and measurement tools.
+                    A custom local tile server enables complete offline map functionality.
+                </p>
+            ),
+            description2: (
+                <p className="text-white mt-[10px] tracking-tighter text-[16px] text-justify h-[190px] overflow-hidden">
+                    OfflineGIS enables offline GIS workflows with multi-layer map rendering, real-time network data
+                    visualization, and support for multiple geospatial file formats. Built with React, TypeScript,
+                    and Capacitor, it integrates native Android GPS tracking, session persistence, and optimized
+                    rendering for large geospatial datasets.
+                </p>
+            ),
+            youtubeFrame: (
+                <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/ripNi7y4-xw?autoplay=1&mute=1"
+                    title="OfflineGIS Demo"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                ></iframe>
+
+            ),
+
+            techUsed: [
+                images?.reactJs,
+                images?.ts,
+                images?.tailwind,
+                images?.cap,
+                images?.deckgl,
+            ],
+            thumbnail: images?.offlineGIS
+        },
+
+        {
+            id: "02",
             name: "Instagram Clone",
-            description: <p className='text-white mt-[10px] tracking-tighter text-[20px] text-justify h-[180px] overflow-hidden'>
+            description: <p className='text-white mt-[10px] tracking-tighter text-[18px] text-justify h-[180px] overflow-hidden'>
                 This MVC based application features a modern, responsive design with enhanced security,
                 including email verification, community guidelines, and account privacy options.
                 It offers dynamic stories, highlights, posts, comments,
@@ -88,9 +215,9 @@ const data = {
             thumbnail: images?.p1
         },
         {
-            id: "02",
+            id: "03",
             name: "CipherSpace: D-Chat App",
-            description: <p className='text-white mt-[10px] tracking-tighter text-[20px] text-justify h-[180px] overflow-hidden'>
+            description: <p className='text-white mt-[10px] tracking-tighter text-[18px] text-justify h-[180px] overflow-hidden'>
                 A decentralized chat application offering secure messaging and
                 real-time notifications on blockchain. Features include custom
                 captcha for registration, avatar personalization, and seamless user
@@ -120,9 +247,9 @@ const data = {
             thumbnail: images?.p2
         },
         {
-            id: "03",
+            id: "04",
             name: "Portfolio Website",
-            description: <p className='text-white mt-[10px] tracking-tighter text-[20px] text-justify h-[180px] overflow-hidden'>
+            description: <p className='text-white mt-[10px] tracking-tighter text-[18px] text-justify h-[180px] overflow-hidden'>
                 Built a ReactJS portfolio website with a modern,
                 responsive design showcasing projects, skills, and achievements.
                 Features include dynamic project cards, smooth animations with Framer Motion,
@@ -150,9 +277,9 @@ const data = {
             thumbnail: images?.p3
         },
         {
-            id: "04",
+            id: "05",
             name: "FAssist: Market Analyzer",
-            description: <p className='text-white mt-[10px] tracking-tighter text-[20px] text-justify h-[180px] overflow-hidden'>
+            description: <p className='text-white mt-[10px] tracking-tighter text-[18px] text-justify h-[180px] overflow-hidden'>
                 Developed FAssist, an award-winning website using MVC architecture
                 and web scraping to monitor market competition. Features include
                 top performer insights, trending keywords, images from social media,
@@ -190,6 +317,13 @@ const data = {
         { image: images?.tailwind, desc: "" },
         { image: images?.solidity, desc: "" },
         { image: images?.css, desc: "" },
+        { image: images?.ts, desc: "" },
+        { image: images?.next, desc: "" },
+        { image: images?.reactNative, desc: "" },
+        { image: images?.git, desc: "" },
+        { image: images?.sql, desc: "" },
+        { image: images?.cap, desc: "" },
+        { image: images?.deckgl, desc: "" },
     ],
     educations: [
         {

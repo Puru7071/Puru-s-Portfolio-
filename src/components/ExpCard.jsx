@@ -8,18 +8,18 @@ const ExpCard = ({item}) => {
             initial={{ scale: 0.5 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className='h-[200px] relative w-[90%] gap-[30px] overflow-hidden flex flex-row justify-between items-center p-[10px]'
+            className='h-auto relative w-[90%] gap-[30px] overflow-hidden flex flex-row justify-between items-start p-[10px] mb-8'
         >
-            <div className='h-[120px] w-[0px] border-r-[4px] rounded-3xl border-r-[#343a40]'>
+            {/* <div className='h-auto w-[0px] border-r-[4px] rounded-3xl border-r-[#343a40]'>
 
-            </div>
+            </div> */}
             <motion.div
-                className='h-[120px] w-[120px] overflow-hidden bg-transparent'
+                className='h-[150px] w-[150px] overflow-hidden bg-transparent rounded-full'
             >
-                <img src={item?.image} alt='pic of a website' className='object-contain rounded-3xl' />
+                <img src={item?.image} alt='pic of a website' className='object-contain rounded-full' />
             </motion.div>
 
-            <div className='flex flex-col w-[80%] h-[150px] justify-between'>
+            <div className='flex flex-col w-[80%] h-full justify-between'>
                 <div className='w-[100%] h-[40px] flex flex-row justify-between items-center'>
                     <h1
                         className='text-2xl bg-gradient-to-tr from-pink-400 via-slate-400 to-purple-500 bg-clip-text text-transparent'
