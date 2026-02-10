@@ -38,7 +38,7 @@ const IntroMobile = () => {
                         />
                     </div>
                     <div className='mt-[20px] text-white w-[100%] text-lg text-justify'>
-                        Computer Scientist <a href='https://belzabar.com/' target='_blank' rel="noopener noreferrer" className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Belzabar</a> | Flipkart Grid 4.0 2nd Runner Up
+                        Computer Scientist <a href='https://leptonsoftware.com/' rel="noopener noreferrer" target='_blank' className='bg-gradient-to-r from-red-300 to-blue-300 bg-clip-text text-transparent'>@Lepton Software</a> | Flipkart Grid 4.0 2nd Runner Up
                         | Full Stack Web Developer | Blockchain Developer | DSA Enthusiast
                         <br /><br />
                     </div>

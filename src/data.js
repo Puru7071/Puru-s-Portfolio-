@@ -61,7 +61,7 @@ const data = {
             image: images.belzabar,
             post: "Computer Scientist",
             name: "Belzabar Software Design",
-            timeline: "07/2024 – 06/2024",
+            timeline: "07/2024 – 06/2025",
             desc: <ul className="text-white tracking-tighter text-xl space-y-3">
                 <li className="flex gap-3">
                     <span className="shrink-0">•</span>
