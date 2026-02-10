@@ -71,7 +71,7 @@ const ProjectCard = ({ project , isMobile}) => {
             >
                 <img alt='pic of a website' src={project?.thumbnail} className='w-[100%] h-[100%] object-contain' />
                 <div className='text-xl absolute text-white bg-red-600 p-[5px] pl-[10px] bottom-0 right-0 rounded-tl-[20px]'>
-                    Hover Image
+                    {isMobile ? "Click here" : "Hover here"}
                 </div>
                 {showLoading && <div className='text-white h-[100%] w-[100%] bg-black flex flex-col justify-center items-center absolute top-0 left-0 gap-[20px]'>
                     Loading Video in {time} seconds
