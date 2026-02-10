@@ -45,7 +45,7 @@ const IntroMobile = () => {
                 </motion.div>
                 <button
                     className='text-slate-100 font-medium px-[20px] py-[10px] bg-gradient-to-tr from-purple-600 to-pink-400 rounded-md absolute bottom-8 right-2'
-                    onClick={() => { window.open("https://drive.google.com/drive/folders/1dqlWDRwFErg8A4B2OKmTekLPC6FKS-ch?usp=drive_link", "_blank") }}
+                    onClick={() => { window.open("https://drive.google.com/file/d/1Oql0KYtn0hK7gqiYdyk9GgwF7hilwVU0/view", "_blank") }}
                 >
                     <IoMdDownload className='text-2xl' />
                 </button>
