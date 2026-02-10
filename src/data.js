@@ -209,7 +209,7 @@ const data = {
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
             ></iframe>,
-            linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7201714107215998976/",
+            // linkednLink: "https://www.linkedin.com/feed/update/urn:li:activity:7201714107215998976/",
             githubURL: "https://github.com/Puru7071/INSTA-CLONE-MERN",
             techUsed: [images?.javaScript, images?.mongo, images?.express, images?.reactJs, images?.node, images?.tailwind, images?.material],
             thumbnail: images?.p1
@@ -241,7 +241,7 @@ const data = {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>,
-            linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7258899408811876352/",
+            // linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7258899408811876352/",
             githubURL: "https://github.com/Puru7071/Decentralised-Chat-App",
             techUsed: [images?.javaScript, images?.solidity, images?.ether, images?.reactJs, images?.tailwind, images?.metamask],
             thumbnail: images?.p2
@@ -271,7 +271,7 @@ const data = {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>,
-            linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7279142287085813760/",
+            // linkedInLink: "https://www.linkedin.com/feed/update/urn:li:activity:7279142287085813760/",
             githubURL: "https://github.com/Puru7071/Puru-s-Portfolio-",
             techUsed: [images?.javaScript, images?.reactJs, images?.tailwind, images?.framer],
             thumbnail: images?.p3
